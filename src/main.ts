@@ -1,3 +1,7 @@
-import '../styles/main.scss';
+// https://github.com/markwylde/infigrid
 
-console.log('It works!');
+import '../styles/main.scss';
+import { Scene } from './scene';
+
+const scene = new Scene();
+scene.mount('root');
